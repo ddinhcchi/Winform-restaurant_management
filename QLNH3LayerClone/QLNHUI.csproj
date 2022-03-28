@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A41FFBC-D52A-48F7-8D0D-D37E22506078}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLNH3Layer</RootNamespace>
+    <AssemblyName>QLNH3Layer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FormBanAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBanAn.Designer.cs">
+      <DependentUpon>FormBanAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormChiTietBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChiTietBill.Designer.cs">
+      <DependentUpon>FormChiTietBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormChiTietMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChiTietMonAn.Designer.cs">
+      <DependentUpon>FormChiTietMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormChuyenBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChuyenBan.Designer.cs">
+      <DependentUpon>FormChuyenBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDoanhThu.Designer.cs">
+      <DependentUpon>FormDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDoiTenBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDoiTenBan.Designer.cs">
+      <DependentUpon>FormDoiTenBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGopBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGopBan.Designer.cs">
+      <DependentUpon>FormGopBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSuaChiTietMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSuaChiTietMonAn.Designer.cs">
+      <DependentUpon>FormSuaChiTietMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTaiKhoanAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTaiKhoanAdmin.Designer.cs">
+      <DependentUpon>FormTaiKhoanAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTaiKhoanStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTaiKhoanStaff.Designer.cs">
+      <DependentUpon>FormTaiKhoanStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormThucDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormThucDon.Designer.cs">
+      <DependentUpon>FormThucDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPay.Designer.cs">
+      <DependentUpon>FormPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateTable.Designer.cs">
+      <DependentUpon>FormUpdateTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormXacNhanMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormXacNhanMatKhau.Designer.cs">
+      <DependentUpon>FormXacNhanMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeColor.cs" />
+    <EmbeddedResource Include="Forms\FormBanAn.resx">
+      <DependentUpon>FormBanAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChiTietBill.resx">
+      <DependentUpon>FormChiTietBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChiTietMonAn.resx">
+      <DependentUpon>FormChiTietMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChuyenBan.resx">
+      <DependentUpon>FormChuyenBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDoanhThu.resx">
+      <DependentUpon>FormDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDoiTenBan.resx">
+      <DependentUpon>FormDoiTenBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGopBan.resx">
+      <DependentUpon>FormGopBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPay.resx">
+      <DependentUpon>FormPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSuaChiTietMonAn.resx">
+      <DependentUpon>FormSuaChiTietMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTaiKhoanAdmin.resx">
+      <DependentUpon>FormTaiKhoanAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTaiKhoanStaff.resx">
+      <DependentUpon>FormTaiKhoanStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormThucDon.resx">
+      <DependentUpon>FormThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateTable.resx">
+      <DependentUpon>FormUpdateTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormXacNhanMatKhau.resx">
+      <DependentUpon>FormXacNhanMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QLNHBUS\QLNHBUS.csproj">
+      <Project>{1579f3ac-e7e9-451e-8b05-82f9f4c95940}</Project>
+      <Name>QLNHBUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLNHDAL\QLNHDAL.csproj">
+      <Project>{182da986-72c8-454e-8c24-5bef63cea2bb}</Project>
+      <Name>QLNHDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLNHDTO\QLNHDTO.csproj">
+      <Project>{dbdf4648-4503-47d7-8774-3d3e4890f599}</Project>
+      <Name>QLNHDTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32x323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo-circular-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo-circular-arrow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo-circular-arrow %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

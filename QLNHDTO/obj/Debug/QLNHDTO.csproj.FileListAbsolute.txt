@@ -1,0 +1,17 @@
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\bin\Debug\QLNHDTO.exe.config
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\bin\Debug\QLNHDTO.exe
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\bin\Debug\QLNHDTO.pdb
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\obj\Debug\QLNHDTO.Properties.Resources.resources
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\obj\Debug\QLNHDTO.csproj.GenerateResource.cache
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\obj\Debug\QLNHDTO.csproj.CoreCompileInputs.cache
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\obj\Debug\QLNHDTO.exe
+D:\Baitap\ltwin\QLNH3LayerClone\QLNHDTO\obj\Debug\QLNHDTO.pdb
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\bin\Debug\QLNHDTO.exe.config
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\bin\Debug\QLNHDTO.exe
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\bin\Debug\QLNHDTO.pdb
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\obj\Debug\QLNHDTO.csprojAssemblyReference.cache
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\obj\Debug\QLNHDTO.Properties.Resources.resources
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\obj\Debug\QLNHDTO.csproj.GenerateResource.cache
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\obj\Debug\QLNHDTO.csproj.CoreCompileInputs.cache
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\obj\Debug\QLNHDTO.exe
+D:\Baitap\ltwin\QLNH3Layer\QLNHDTO\obj\Debug\QLNHDTO.pdb
